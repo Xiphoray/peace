@@ -34,9 +34,8 @@ namespace peace
         static void Main(string[] args)
         {
             System.Diagnostics.Process.Start(AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"peace.html");
-            Thread.Sleep(2000);
+            Thread.Sleep(6000);
             keybd_event(122, 0, 0, 0);
-
         }
     
     }
